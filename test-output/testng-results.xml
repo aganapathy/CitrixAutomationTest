@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36526" started-at="2015-10-18T06:29:48Z" finished-at="2015-10-18T06:30:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36526" started-at="2015-10-18T06:29:48Z" finished-at="2015-10-18T06:30:25Z">
+      <class name="com.citrix.gotowebinar.testcases.ScheduleWebinar">
+        <test-method status="PASS" signature="initSuite(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.citrix.gotowebinar.testcases.ScheduleWebinar@4149888e]" name="initSuite" is-config="true" duration-ms="1503" started-at="2015-10-18T11:59:48Z" finished-at="2015-10-18T11:59:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prod]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSuite -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.citrix.gotowebinar.testcases.ScheduleWebinar@4149888e]" name="beforeMethod" is-config="true" duration-ms="54" started-at="2015-10-18T11:59:50Z" finished-at="2015-10-18T11:59:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.citrix.gotowebinar.testcases.ScheduleWebinar@4149888e]" name="test" duration-ms="34390" started-at="2015-10-18T11:59:50Z" finished-at="2015-10-18T12:00:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.citrix.gotowebinar.testcases.ScheduleWebinar@4149888e]" name="afterMethod" is-config="true" duration-ms="568" started-at="2015-10-18T12:00:24Z" finished-at="2015-10-18T12:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.citrix.gotowebinar.testcases.ScheduleWebinar -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

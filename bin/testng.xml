@@ -1,0 +1,12 @@
+- <suite name="GoToWebinar Suite">
+	<parameter name="test.env" value="prod" />
+	<parameter name="test.browser" value="chrome" />
+	<parameter name="test.os" value="mac" />
+	
+  <test name="WebinarTest">
+      <classes>
+        <class name="com.citrix.gotowebinar.testcases.ScheduleWebinar" />                  
+     </classes>
+  </test>
+</suite> 
+  
