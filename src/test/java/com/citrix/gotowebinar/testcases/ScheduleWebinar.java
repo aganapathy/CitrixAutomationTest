@@ -3,6 +3,7 @@ package com.citrix.gotowebinar.testcases;
 import java.util.Date;
 
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 import com.citrix.gotowebinar.basetest.BaseTest;
@@ -21,6 +22,17 @@ public class ScheduleWebinar extends BaseTest {
 	protected LeftNavObjects myLeftNavObjects=null;
 	protected ScheduleWebinarPage myScheduleWebinarPage=null;
 	protected ManageWebinarPage myManageWebinarPage=null;
+	
+	@AfterMethod
+	public void afterMethod() {
+		try {
+			if (driver != null)
+				driver.quit();
+		} catch (Exception e) {
+			System.out.println("Coulf not quit");
+		}
+		driver = null;
+	}
 	
 	@Test(enabled = true)
 	public void testScheduleWebinarXDaysFromToday() throws InterruptedException
@@ -60,9 +72,6 @@ public class ScheduleWebinar extends BaseTest {
 		
 		myManageWebinarPage=myWebinarHomePage.EditWebinarByTitle(finalWebinarTitle);
 		myManageWebinarPage.CancelWebinar();
-		
-		HeaderFooter myHeaderFooter=new HeaderFooter(driver,testEnv);
-		myHeaderFooter.Logout();
 		
 
 	}

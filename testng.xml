@@ -1,4 +1,5 @@
-- <suite name="GoToWebinar Suite">
+<?xml version="1.0" encoding="UTF-8"?> 
+<suite name="GoToWebinar Suite">
 	<parameter name="test.env" value="prod" />
 	<parameter name="test.browser" value="chrome" />
 	<parameter name="test.os" value="mac" />
